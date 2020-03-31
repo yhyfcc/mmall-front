@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('!!html-loader!./layout/html-head.html') %>
+    <title><%= htmlWebpackPlugin.options.title%> - happymmall</title>
+<body>
+    <%= require('!!html-loader!./layout/nav.html') %>
+    <%= require('!!html-loader!./layout/header.html') %>
+    <div class="crumb">
+        <div class="crumb-con w">
+            <a href="./index.html" class="link">MMall</a>
+            <span>></span>
+            <span class="link-text"><%= htmlWebpackPlugin.options.title%></span>
+        </div>
+    </div>
+    <div class="page-wrap w">
+        <div class="panel">
+            <h1 class="panel-title">Address</h1>
+            <div class="panel-body address-con"></div>
+        </div>
+        <div class="panel">
+            <h1 class="panel-title">Items in your order</h1>
+            <div class="panel-body product-con"></div>
+        </div>
+    </div>
+
+    <div class="modal-wrap hide">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h1 class="modal-title">Use a new address</h1>
+                <span class="close">Close</span>
+            </div>
+            <div class="modal-body">
+                <div class="form">
+                    <div class="form-line">
+                        <label class="label" for="receiver-name">
+                            <span class="required">*</span>Name:
+                        </label>
+                        <input class="form-item" id="receiver-name" placeholder="Please input name of receiver">
+                    </div>
+                    <div class="form-line">
+                        <label class="label" for="receiver-state">
+                            <span class="required">*</span>State:
+                        </label>
+                        <select class="form-item" id="receiver-state">
+                            <option>IN</option>
+                        </select>
+                    </div>
+                    <div class="form-line">
+                        <label class="label" for="receiver-county">
+                            <span class="required">*</span>County:
+                        </label>
+                        <select class="form-item" id="receiver-county">
+                            <option>Tippecanoe</option>
+                        </select>
+                    </div>
+                    <div class="form-line">
+                        <label class="label" for="receiver-address">
+                            <span class="required">*</span>Address:
+                        </label>
+                        <input class="form-item" id="receiver-address" placeholder="Please input address of receiver">
+                    </div>
+                    <div class="form-line">
+                        <label class="label" for="receiver-phone">
+                            <span class="required">*</span>Phone:
+                        </label>
+                        <input class="form-item" id="receiver-phone" placeholder="Please input phone number of receiver">
+                    </div>
+                    <div class="form-line">
+                        <label class="label" for="receiver-zip">
+                            <span class="required">*</span>ZipCode:
+                        </label>
+                        <input class="form-item" id="receiver-zip" placeholder="Please input zipcode of receiver">
+                    </div>
+                    <div class="form-line">
+                        <a href="#" class="btn address-btn">Save shipping address</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="loading">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <%= require('!!html-loader!./layout/footer.html') %>
+</body>
+
+</html>
+
+

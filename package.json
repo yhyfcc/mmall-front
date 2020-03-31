@@ -1,0 +1,45 @@
+{
+  "name": "webmarketfront",
+  "version": "1.0.0",
+  "description": "frontend for mmall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yhyfcc/mmall-front.git"
+  },
+  "author": "Hongyang Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhyfcc/mmall-front/issues"
+  },
+  "homepage": "https://github.com/yhyfcc/mmall-front#readme",
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "ejs": "^3.0.1",
+    "ejs-loader": "^0.3.5",
+    "ejs-render-loader": "^1.0.0",
+    "extract-loader": "^4.0.3",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.3",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "qs": "^6.9.1"
+  }
+}

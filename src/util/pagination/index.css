@@ -1,0 +1,36 @@
+.pagination-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pagination-wrap .page-selectors{
+    width: 100px;
+    display: flex;
+    justify-content: left;
+}
+
+
+.pagination-wrap .page-btn{
+    padding: 5px 10px;
+    margin-right: 7px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+.pagination-wrap .page-btn.disabled{
+    background-color: transparent;
+    color: #aaa;
+    cursor: default;
+}
+
+.pagination-wrap .page-btn.page-curr{
+    border: none;
+    background-color: transparent;
+    cursor: default;
+}
+

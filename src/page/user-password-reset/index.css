@@ -1,0 +1,70 @@
+/*Outermost container*/
+.page-wrap{
+    padding: 40px 0;
+}
+
+/*Input boxes*/
+.user-content{
+    width: 450px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.user-content .user-title{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+
+.user-content .user-box{
+    padding: 20px;
+}
+.user-content .user-box .error-item{
+    position: relative;
+    padding: 4px 0 4px 40px;
+    margin-bottom: 10px;
+    border: red;
+    color: red;
+    background: #fed9e9;
+}
+
+.user-content .user-item{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.user-content .user-item-text{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+
+.user-content .user-item .user-input{
+    padding: 10px 0 10px 50px;
+    width: 358px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 15px;
+    border: 1px solid #bdbdbd;
+}
+
+.user-content .btn-submit{
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.user-content .link-item{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.user-content .link-item .link{
+    margin-left: 10px;
+    color: #999;
+}

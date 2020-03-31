@@ -1,0 +1,163 @@
+.keywords-list{
+    float: left;
+    width: 240px;
+    height: 350px;
+    padding: 10px 0;
+    margin-right: 10px;
+    background: #666;
+    color: #fff;
+}
+
+.keywords-list .keywords-item{
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.keywords-list .keywords-item .link{
+    margin-right: 10px;
+    color: #fff;
+}
+
+.keywords-list .keywords-item:hover{
+    background: #999;
+}
+
+.keywords-list .keywords-item .link:hover{
+    color: #c60023;
+}
+
+
+/* banner */
+.banner-con{
+    width: 830px;
+    height: 370px;
+    float: left;
+    background: #eee;
+}
+
+.banner-con .loading{
+    margin-top: 150px;
+}
+
+
+/* Floor */
+.floor-wrap .floor-title{
+    height: 50px;
+    line-height: 50px;
+    color: #d58717;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px solid #658717;
+}
+
+.floor-wrap .floor-list{
+    margin-right: -20px;
+    overflow: hidden;
+}
+
+.floor-wrap .floor-list .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+
+.floor-wrap .floor-list .floor-item:hover {
+    box-shadow: 1px 1px 7px #ddd;
+}
+
+.floor-wrap .floor-list .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.floor-wrap .floor-list .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+.refrigerator{
+    background-color: #d58717;
+}
+
+.slider{
+    width: 100%;
+    height: 370px;
+}
+
+.glide__slide:nth-child(1) .slider{
+    background-color: #d58717;
+}
+
+.glide__slide:nth-child(2) .slider{
+    background-color: #c60023;
+}
+
+.glide__slide:nth-child(3) .slider{
+    background-color: #658717;
+}
+
+.glide__bullets{
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.glide__bullet{
+    width: 15px;
+    height: 15px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.glide__bullet.glide__bullet--active{
+    background-color: #fff;
+}
+
+.glide__arrows{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -37px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.glide__arrows .glide__arrow{
+    width: 50px;
+    height: 100%;
+    background: rgba(200,200,200,0.2);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.glide__arrow--text{
+    color: #eee;
+    text-shadow: 0 0 5px #eee;
+    display: inline-block;
+    font-size: 25px;
+    width: 15px;
+    height: 25px;
+    transform: scale(1,2.5);
+}

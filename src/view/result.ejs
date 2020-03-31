@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('!!html-loader!./layout/html-head.html') %>
+    <title><%= htmlWebpackPlugin.options.title%> - happymmall</title>
+</head>
+<body>
+    <%= require('!!html-loader!./layout/nav-simple.html') %>
+    <div class="page-wrap w">
+        <div class="result-content register-success hide">
+            <h1 class="result-title">Registration Successful</h1>
+            <div class="result-content">
+                <a href="./index.html" class="link">Back to index</a>
+                <a href="./index.html" class="link">Login now</a>
+            </div>
+        </div>
+        <div class="result-content cart-add-success hide">
+            <h1 class="result-title">Your item has been added to shopping cart</h1>
+            <div class="result-content">
+                <a href="./index.html" class="link">Continue shopping</a>
+                <a href="./cart.html" class="link">See cart</a>
+            </div>
+        </div>
+        <div class="result-content password-reset-success hide">
+            <h1 class="result-title">Password reset successful</h1>
+            <div class="result-content">
+                <a href="./index.html" class="link">Back to index</a>
+                <a href="./user-login.html" class="link">Login now</a>
+            </div>
+        </div>
+        <div class="result-content payment-success hide">
+            <h1 class="result-title">Payment successful</h1>
+            <div class="result-content">
+                <a href="./index.html" class="link">Back to index</a>
+                <a href="#" class="link order-detail-link">Go to order detail</a>
+            </div>
+        </div>
+        <div class="result-content default-success hide">
+            <h1 class="result-title">Operation Successful</h1>
+            <div class="result-content">
+                <a href="./index.html" class="link">Back to index</a>
+            </div>
+        </div>
+    </div>
+    <div class="loading">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <%= require('!!html-loader!./layout/footer.html') %>
+</body>
+</html>

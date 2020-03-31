@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('!!html-loader!./layout/html-head.html') %>
+    <title><%= htmlWebpackPlugin.options.title%> - happymmall</title>
+<body>
+    <%= require('!!html-loader!./layout/nav.html') %>
+    <%= require('!!html-loader!./layout/header.html') %>
+    <div class="w">
+        <ul class="keywords-list">
+            <li class="keywords-item">
+                <a class="link" target="_blank" href="./list.html?keyword=mobile">Mobile</a>
+                <a class="link" target="_blank" href="./list.html?keyword=electronics">Electronics</a>
+            </li>
+            <li class="keywords-item">
+                <a class="link" target="_blank" href="./list.html?keyword=computer">Computer and accessories</a>
+                <a class="link" target="_blank" href="./list.html?keyword=office">Office</a>
+            </li>
+            <li class="keywords-item">
+                <a class="link" target="_blank" href="./list.html?keyword=kitchen">Kitchen</a>
+                <a class="link" target="_blank" href="./list.html?keyword=home">Home</a>
+            </li>
+            <li class="keywords-item">
+                <a class="link" target="_blank" href="./list.html?keyword=skincare">Skincare</a>
+                <a class="link" target="_blank" href="./list.html?keyword=hair">Hair and bath</a>
+            </li>
+        </ul>
+        <div class="banner-con">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide"><div class="slider"></div></li>
+                        <li class="glide__slide"><div class="slider"></div></li>
+                        <li class="glide__slide"><div class="slider"></div></li>
+                    </ul>
+                </div>
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><span class="glide__arrow--text"><</span></button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><span class="glide__arrow--text">></span></button>
+                </div>
+            </div>
+
+<!--            <div class="loading">-->
+<!--                <div class="lds-ring"><div></div><div></div><div></div><div></div></div>-->
+<!--            </div>-->
+        </div>
+    </div>
+    <div class="w">
+        <div class="floor-wrap">
+            <h1 class="floor-title">F1 Home</h1>
+            <ul class="floor-list">
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=100006">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=100007">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=100008">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=100009">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=100010">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="floor-wrap">
+            <h1 class="floor-title">F2 Office</h1>
+            <ul class="floor-list">
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="floor-wrap">
+            <h1 class="floor-title">F3 Electronics</h1>
+            <ul class="floor-list">
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="floor-wrap">
+            <h1 class="floor-title">F4 Beauty</h1>
+            <ul class="floor-list">
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="floor-wrap">
+            <h1 class="floor-title">F5 Books</h1>
+            <ul class="floor-list">
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+                <li class="floor-item">
+                    <a href="./list.html?categoryId=">
+                        <span class="floor-text">Refrigerator</span>
+                        <div class="floor-img refrigerator"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="loading">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <%= require('!!html-loader!./layout/footer.html') %>
+</body>
+</html>
